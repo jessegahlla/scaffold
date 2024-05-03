@@ -12,7 +12,7 @@ def subtract(x, y):
     return x - y
 
 RESULT = add(1, 2)
-print("This is the sum: 1, 2, %s" % RESULT)
+print(f"This is the sum: 1, 2, {RESULT}")
 
 RESULT = subtract(10,2)
-print("This is the difference: 10, 2, %s" % RESULT)
+print(f"This is the difference: 10, 2, {RESULT}")
